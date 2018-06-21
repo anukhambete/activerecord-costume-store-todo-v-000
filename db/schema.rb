@@ -40,6 +40,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "opening_date"
     t.datetime "closing_date"
     t.text "description"
+    t.boolean "family_friendly"
   end
 
 end
